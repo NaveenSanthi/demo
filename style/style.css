@@ -1,0 +1,125 @@
+/* 
+Text : sans-sherif 
+Typerface : 
+font - size : 16 to 32 px for normal text and blog post use 20px 
+SPACING SYSTEM (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+FONT SIZE SYSTEM (px)
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 62.5%;
+  background-color: black;
+}
+.right {
+  background-color: white;
+}
+.grid {
+  display: grid;
+}
+.flex {
+  display: flex;
+  gap: 0.4rem;
+}
+.padding {
+  padding: 0.8rem 1.2rem;
+}
+.padding-left {
+  padding-left: 3.2rem;
+}
+.grid--2--col {
+  grid-template-columns: 300px 1fr;
+}
+.flex-dir-col {
+  flex-direction: column;
+}
+.font-size-md {
+  font-size: 1.4rem;
+}
+.root {
+  max-width: 850px;
+  height: 100vh;
+  margin: 0 auto;
+}
+.left {
+  background-color: rgb(36, 198, 226);
+}
+.resume-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.section-img {
+  text-align: center;
+}
+.section-name {
+  border-bottom: 2px solid black;
+  text-align: center;
+  padding-bottom: 0.1rem;
+}
+.name {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.section-contact {
+  font-size: 1.4rem;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.heading {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+/* Section Right */
+.font-size-ls {
+  font-size: 1.1rem;
+}
+.margin-btm {
+  margin-bottom: 1rem;
+}
+.margin-bootom-ls {
+  margin-bottom: 0.4rem;
+}
+.lategray-color {
+  color: darkslategray;
+}
+.right {
+  padding: 1.6rem 2.4rem 1.6rem 1.6rem;
+}
+.des {
+  line-height: 1.2;
+  margin-bottom: 0.6rem;
+}
+.r-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.project-heading {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+.ins-name {
+  font-weight: 600;
+}
+.pro-flex {
+  display: flex;
+  gap: 0.5rem;
+}
+.technologies {
+  margin-bottom: 0.4rem;
+}
+.pro-margn-bottom {
+  margin-bottom: 0.8rem;
+}
+.extra-activities {
+  margin-left: 1rem;
+  line-height: 1.6;
+}
